@@ -1,0 +1,75 @@
+.logo {
+    display:flex;
+    background-color: aquamarine;
+    justify-content: center;
+}
+
+.botones {
+    position: absolute;
+    right: 60px;
+    top: 30px;
+}
+
+.nav {
+    display:flex;
+    background-color: white
+    justify-content: center;
+}
+
+.nav h2 {
+    margin-left: 50px;
+    transition: color 1ms;
+}
+
+.nav h2:hover {
+    color: aquamarine;
+}
+
+.imageSize {
+    width: 20px;
+}
+
+.carrousel {
+    width: 1335px; 
+}
+
+.banner {
+    width: 1335px;
+    display:flex;  
+    height: auto;
+    justify-content: space-between;
+    background-color: rgb(77, 6, 45);
+}
+
+.imagenBanner {
+    /* max-width: 100%;
+    height: auto; */
+    width: 50%;
+    box-sizing: border-box;
+    margin-right: 20px;
+    background-color: blue;
+}
+
+.imagen1 {
+    width: 100%;
+    
+}
+
+.imagen2 {
+    width: 100%;
+}
+
+
+.buttonBanner1 button {
+    /* position: absolute; */
+    top: 0;
+
+}
+
+.buttonBanner2 button {
+    /* position: absolute; */
+    margin: 300px;
+}
+
+
+
