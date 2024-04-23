@@ -1,7 +1,10 @@
 .logo {
-    display:flex;
+    display: flex;
     background-color: aquamarine;
     justify-content: center;
+}
+.logo img{
+    margin-left: 10px;
 }
 
 .botones {
@@ -10,65 +13,162 @@
     top: 30px;
 }
 
+.botones img {
+    height: 25px;
+}
+
 .nav {
-    display:flex;
-    background-color: white
-    justify-content: center;
+    display: flex;
+    justify-content: space-around;
 }
 
 .nav h2 {
-    margin-left: 50px;
-    transition: color 1ms;
+    transition: 0.7s;
+    pointer-events: painted;
+    font-style: italic;
+    font-size: 26px;
 }
 
 .nav h2:hover {
-    color: aquamarine;
+    color: aqua;
+    cursor: pointer;
 }
 
-.imageSize {
-    width: 20px;
-}
-
-.carrousel {
-    width: 1335px; 
+.logoWhatsapp {
+    position: fixed;
+    padding: 10px;
+    bottom: 30px;
+    margin-left: 20px;
+    opacity: 0.9;
+    z-index: 999;
+    width: 80px;
 }
 
 .banner {
-    width: 1335px;
-    display:flex;  
-    height: auto;
-    justify-content: space-between;
-    background-color: rgb(77, 6, 45);
+    display: flex;
+    width: 100%;
 }
 
 .imagenBanner {
-    /* max-width: 100%;
-    height: auto; */
-    width: 50%;
-    box-sizing: border-box;
-    margin-right: 20px;
-    background-color: blue;
-}
-
-.imagen1 {
-    width: 100%;
+    flex: 1; 
+    position: relative; 
+    padding: 5px; 
+    box-sizing: border-box; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    
     
 }
 
-.imagen2 {
-    width: 100%;
+.imagenBanner img {
+    width: 100%; 
+    
+}
+
+.imagenBanner button {
+    position: absolute; 
+    bottom: 100px; 
+    
+    
+    
+}
+
+.buttonBanner1,
+.buttonBanner2{
+    padding: 10px 5px;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    border-color: whitesmoke;
+    opacity: 0.5;
+    transition: 1s, transform 2s ease-out;
+
+    
 }
 
 
-.buttonBanner1 button {
-    /* position: absolute; */
-    top: 0;
+.buttonBanner1:hover,
+.buttonBanner2:hover{
+    background-color: rgb(252, 254, 255);
+    color:aqua;
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1.3);
 
 }
 
-.buttonBanner2 button {
-    /* position: absolute; */
-    margin: 300px;
+.Productos {
+    display: flex;
+    background-color: rgb(221, 220, 231);
+    
+}
+
+.imgBolsos {
+    flex: 1;
+    justify-content: space-around;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-style: italic;;
+    
+}
+
+.nombreProducto{
+    margin-left: 30px;
+}
+
+.imgBolsos h3{
+    font-size: 22px;
+}
+
+.imgBolsos h2:hover,
+.imgBolsos h3:hover {
+   
+    color: rgb(25, 182, 182);
+    cursor: pointer;
+}
+
+.unionListas{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(15, 13, 13);
+   
+}
+
+.listasFooter{
+    flex: 1;
+    margin: 30px 250px;
+    color: white;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.title{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.unionListas li{
+    transition: 1s;
+    font-style: italic;
+}
+
+.unionListas li:hover{
+    transform: scale(1.1);
+}
+
+.copy {
+    display: flex;
+    color: white;
+    justify-content: center;
+    background-color: rgb(15, 13, 13);
 }
 
 
