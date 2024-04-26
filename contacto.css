@@ -1,0 +1,61 @@
+h3{
+    font-size: 30px;
+    margin-left: 10%;
+}
+.caja-formulario {
+    justify-content: center;
+}
+.caja-formulario {
+    display: flex;
+    align-items: center;
+}
+
+h4 {
+    font-size: 18px;
+}
+.caja-formulario h4{
+    flex: 0 200px ;
+
+}
+
+
+.caja-formulario input{
+    width: 60%;
+    height: 30px;
+}
+
+.caja-formulario textarea{
+    width: 60%;
+    height: 60px;
+}
+
+.caja-formulario ::placeholder{
+    font-size: 15px;
+}
+
+.boton-enviar{
+   text-align: right;
+   margin: 20px 14.3% 20px 0;
+}
+
+.boton-enviar button{
+
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 15px;
+    font-style: italic;
+    font-weight:200;
+    border-color: white;
+    background-color: rgb(105, 207, 233);
+    transition: 0.6s;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.boton-enviar button:hover{
+    background-color: rgb(189, 133, 221);
+    
+}
+
+
+
+
